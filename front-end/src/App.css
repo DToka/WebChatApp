@@ -1,0 +1,48 @@
+.Login{
+    border: 5px solid indigo;
+    border-radius: 20px;
+    position: relative;
+    top: 35%;
+    left: 40%;
+    width: 20%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.messages{
+    float: left;
+    border: 2px solid black;
+    word-wrap: break-word;
+    width:75%;
+    top: 0%;    
+}
+
+
+.message{
+    position: relative;
+    border-bottom: 1px solid blue;
+    word-wrap: break-word;
+}
+
+
+.textEntry{
+    position: fixed;
+    width: 80%;
+    bottom: 0%;
+}
+
+.userList{
+    width: 20%;
+    float: right;
+
+}
+.userElement{
+    padding-right: .6em;
+}
+
+.chatApp{
+    overflow:auto;
+}
